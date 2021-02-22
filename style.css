@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* header */
 header {
   width: 100%;
   height: 70px;
@@ -38,4 +38,126 @@ header {
 }
 a {
   text-decoration: none;
+}
+
+/* mainvisual */
+.mainvisual{
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.mainvisual h1{
+  font-size: 64px;
+  color:#fafafa;
+  padding-bottom: 10px;
+}
+
+.mainvisual p {
+  font-size: 20px;
+  color:#fafafa;
+}
+
+/* portfolio */
+.portfolio{
+  background-color: #eceff1;
+}
+
+.port-cnt {
+  width:920px;
+  margin: 0 auto ;
+  text-align: center;
+  padding: 90px 0 90px 0;
+}
+
+.heading{
+  font-size: 32px;
+  color: #000;
+  
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  color: #ec715f;
+  margin:8px auto 30px auto;
+}
+
+.port-img-cnt{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.port-img1{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  margin:0 10px 10px 0;
+}
+.port-img2{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  margin:0 10px 10px 0;
+}
+.port-img3{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.port-img4{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+.port-img5{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+.port-img6{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* feature */
+.feat-cnt {
+  width:980px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.strength-cnt {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strength {
+  width:320px;
+  height:auto;
 }
